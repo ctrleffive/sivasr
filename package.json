@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-portfolio-jodie",
-  "private": true,
-  "description": "Image-heavy photography portfolio with colorful accents & great typography",
+  "name": "sivasr",
+  "private": false,
+  "description": "Sivaprasad's Website",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
@@ -65,9 +65,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-jodie"
+    "url": "https://github.com/ctrleffive/sivasr"
   },
   "bugs": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-jodie/issues"
+    "url": "https://github.com/ctrleffive/sivasr/issues"
   }
 }
