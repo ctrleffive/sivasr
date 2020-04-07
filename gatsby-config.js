@@ -17,10 +17,7 @@ module.exports = {
     logo: config.siteLogo,
     headline: config.siteHeadline,
     siteLanguage: config.siteLanguage,
-    ogLanguage: config.ogLanguage,
     author: config.author,
-    twitter: config.userTwitter,
-    facebook: config.ogSiteName,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -46,13 +43,6 @@ module.exports = {
       options: {
         name: 'images',
         path: `${__dirname}/src/images`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-instagram',
-      options: {
-        access_token: process.env.ACCESS_TOKEN,
-        instagram_id: process.env.BUSINESS_ID,
       },
     },
     {
