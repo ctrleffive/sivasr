@@ -6,7 +6,8 @@ import 'typeface-work-sans'
 import { Box, Flex } from '../elements'
 import theme from '../../config/theme'
 import reset from '../styles/reset'
-import Logo from './logo'
+
+import Logo from '../images/logo.png'
 
 const GlobalStyles = createGlobalStyle`
   *::before,
@@ -228,9 +229,9 @@ const Layout = ({ children, color }: LayoutProps) => {
               alignItems={['center', 'center', 'center', 'flex-start']}
               justifyContent="space-between"
             >
-              <Box width={['3rem', '4rem', '5rem', '6rem']}>
+              <Box width={['6rem', '9rem', '10rem', '15rem']}>
                 <Link to="/" aria-label="LekoArts, Back to Home">
-                  <Logo />
+                  <img src={Logo} alt="" width="100%" />
                 </Link>
               </Box>
               <Nav
